@@ -1,0 +1,101 @@
+.wrapper {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+label {
+  font-size: 16px;
+}
+
+.controls {
+  background-color: #EEA47FFF;
+}
+
+.controls, .results {
+  padding: 30px;
+}
+
+
+.head{
+  padding: 40px;
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  font-size: 60px;
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+article {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+  max-width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+span {
+  background-color: #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+
+@keyframes header {
+  from {
+    opacity: 0;
+    font-size: 30px;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only width and (max-width: 600px)
+{
+  .wrapper {
+    width: 90%;
+  }
+}
